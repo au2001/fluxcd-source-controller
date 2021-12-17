@@ -64,7 +64,7 @@ func (c *CheckoutBranch) Checkout(ctx context.Context, path, url string, opts *g
 		FetchOptions: &git2go.FetchOptions{
 			DownloadTags:    git2go.DownloadTagsNone,
 			RemoteCallbacks: RemoteCallbacks(ctx, opts),
-			ProxyOptions:    &git2go.ProxyOptions{
+			ProxyOptions:    git2go.ProxyOptions{
 				Type: git2go.ProxyTypeAuto,
 			},
 		},
@@ -96,7 +96,7 @@ func (c *CheckoutTag) Checkout(ctx context.Context, path, url string, opts *git.
 		FetchOptions: &git2go.FetchOptions{
 			DownloadTags:    git2go.DownloadTagsAll,
 			RemoteCallbacks: RemoteCallbacks(ctx, opts),
-			ProxyOptions:    &git2go.ProxyOptions{
+			ProxyOptions:    git2go.ProxyOptions{
 				Type: git2go.ProxyTypeAuto,
 			},
 		},
@@ -122,7 +122,7 @@ func (c *CheckoutCommit) Checkout(ctx context.Context, path, url string, opts *g
 		FetchOptions: &git2go.FetchOptions{
 			DownloadTags:    git2go.DownloadTagsNone,
 			RemoteCallbacks: RemoteCallbacks(ctx, opts),
-			ProxyOptions:    &git2go.ProxyOptions{
+			ProxyOptions:    git2go.ProxyOptions{
 				Type: git2go.ProxyTypeAuto,
 			},
 		},
@@ -156,7 +156,7 @@ func (c *CheckoutSemVer) Checkout(ctx context.Context, path, url string, opts *g
 		FetchOptions: &git2go.FetchOptions{
 			DownloadTags:    git2go.DownloadTagsAll,
 			RemoteCallbacks: RemoteCallbacks(ctx, opts),
-			ProxyOptions:    &git2go.ProxyOptions{
+			ProxyOptions:    git2go.ProxyOptions{
 				Type: git2go.ProxyTypeAuto,
 			},
 		},
