@@ -1,14 +1,17 @@
-module github.com/fluxcd/source-controller
+module github.com/au2001/fluxcd-source-controller
 
 go 1.16
 
-replace github.com/fluxcd/source-controller/api => ./api
+replace github.com/fluxcd/source-controller/api => github.com/au2001/fluxcd-source-controller/api v0.19.2
+
+replace github.com/au2001/fluxcd-source-controller/api => ./api
 
 require (
 	cloud.google.com/go v0.93.3 // indirect
 	cloud.google.com/go/storage v1.16.0
 	github.com/Masterminds/semver/v3 v3.1.1
 	github.com/ProtonMail/go-crypto v0.0.0-20210428141323-04723f9f07d7
+	github.com/au2001/fluxcd-source-controller/api v0.19.2
 	github.com/bshuster-repo/logrus-logstash-hook v1.0.2 // indirect
 	github.com/bugsnag/bugsnag-go v2.1.2+incompatible // indirect
 	github.com/bugsnag/panicwrap v1.3.4 // indirect
@@ -24,6 +27,7 @@ require (
 	github.com/fluxcd/pkg/ssh v0.1.0
 	github.com/fluxcd/pkg/untar v0.1.0
 	github.com/fluxcd/pkg/version v0.1.0
+	github.com/fluxcd/source-controller v0.19.2 // indirect
 	github.com/fluxcd/source-controller/api v0.19.2
 	github.com/garyburd/redigo v1.6.3 // indirect
 	github.com/go-git/go-billy/v5 v5.3.1

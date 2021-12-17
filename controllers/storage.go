@@ -37,7 +37,7 @@ import (
 
 	"github.com/fluxcd/pkg/untar"
 	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
-	"github.com/fluxcd/source-controller/internal/fs"
+	"github.com/au2001/fluxcd-source-controller/internal/fs"
 	"github.com/fluxcd/source-controller/pkg/sourceignore"
 )
 

@@ -45,7 +45,7 @@ import (
 
 	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
 	"github.com/fluxcd/source-controller/controllers"
-	"github.com/fluxcd/source-controller/internal/helm"
+	"github.com/au2001/fluxcd-source-controller/internal/helm"
 	// +kubebuilder:scaffold:imports
 )
 

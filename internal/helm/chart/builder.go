@@ -27,7 +27,7 @@ import (
 	helmchart "helm.sh/helm/v3/pkg/chart"
 	"helm.sh/helm/v3/pkg/chartutil"
 
-	"github.com/fluxcd/source-controller/internal/fs"
+	"github.com/au2001/fluxcd-source-controller/internal/fs"
 )
 
 // Reference holds information to locate a chart.
