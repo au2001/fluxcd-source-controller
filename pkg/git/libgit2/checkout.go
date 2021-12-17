@@ -64,6 +64,9 @@ func (c *CheckoutBranch) Checkout(ctx context.Context, path, url string, opts *g
 		FetchOptions: &git2go.FetchOptions{
 			DownloadTags:    git2go.DownloadTagsNone,
 			RemoteCallbacks: RemoteCallbacks(ctx, opts),
+			ProxyOptions:    git2go.ProxyOptions{
+				Type: git2go.ProxyTypeAuto,
+			},
 		},
 		CheckoutBranch: c.Branch,
 	})
@@ -93,6 +96,9 @@ func (c *CheckoutTag) Checkout(ctx context.Context, path, url string, opts *git.
 		FetchOptions: &git2go.FetchOptions{
 			DownloadTags:    git2go.DownloadTagsAll,
 			RemoteCallbacks: RemoteCallbacks(ctx, opts),
+			ProxyOptions:    git2go.ProxyOptions{
+				Type: git2go.ProxyTypeAuto,
+			},
 		},
 	})
 	if err != nil {
@@ -116,6 +122,9 @@ func (c *CheckoutCommit) Checkout(ctx context.Context, path, url string, opts *g
 		FetchOptions: &git2go.FetchOptions{
 			DownloadTags:    git2go.DownloadTagsNone,
 			RemoteCallbacks: RemoteCallbacks(ctx, opts),
+			ProxyOptions:    git2go.ProxyOptions{
+				Type: git2go.ProxyTypeAuto,
+			},
 		},
 	})
 	if err != nil {
@@ -147,6 +156,9 @@ func (c *CheckoutSemVer) Checkout(ctx context.Context, path, url string, opts *g
 		FetchOptions: &git2go.FetchOptions{
 			DownloadTags:    git2go.DownloadTagsAll,
 			RemoteCallbacks: RemoteCallbacks(ctx, opts),
+			ProxyOptions:    git2go.ProxyOptions{
+				Type: git2go.ProxyTypeAuto,
+			},
 		},
 	})
 	if err != nil {
