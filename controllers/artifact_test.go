@@ -3,7 +3,7 @@ package controllers
 import (
 	"testing"
 
-	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
+	sourcev1 "github.com/au2001/fluxcd-source-controller/api/v1beta1"
 )
 
 func TestHasUpdated(t *testing.T) {

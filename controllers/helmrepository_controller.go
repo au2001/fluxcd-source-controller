@@ -43,7 +43,7 @@ import (
 	"github.com/fluxcd/pkg/runtime/metrics"
 	"github.com/fluxcd/pkg/runtime/predicates"
 
-	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
+	sourcev1 "github.com/au2001/fluxcd-source-controller/api/v1beta1"
 	"github.com/au2001/fluxcd-source-controller/internal/helm/getter"
 	"github.com/au2001/fluxcd-source-controller/internal/helm/repository"
 )

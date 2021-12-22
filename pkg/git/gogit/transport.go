@@ -25,7 +25,7 @@ import (
 
 	"github.com/fluxcd/pkg/ssh/knownhosts"
 
-	"github.com/fluxcd/source-controller/pkg/git"
+	"github.com/au2001/fluxcd-source-controller/pkg/git"
 )
 
 // transportAuth constructs the transport.AuthMethod for the git.Transport of

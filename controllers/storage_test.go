@@ -29,7 +29,7 @@ import (
 
 	"github.com/go-git/go-git/v5/plumbing/format/gitignore"
 
-	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
+	sourcev1 "github.com/au2001/fluxcd-source-controller/api/v1beta1"
 )
 
 func createStoragePath() (string, error) {

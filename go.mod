@@ -2,8 +2,6 @@ module github.com/au2001/fluxcd-source-controller
 
 go 1.16
 
-replace github.com/fluxcd/source-controller/api => github.com/au2001/fluxcd-source-controller/api v0.20.1
-
 replace github.com/au2001/fluxcd-source-controller/api => ./api
 
 require (
@@ -27,8 +25,6 @@ require (
 	github.com/fluxcd/pkg/ssh v0.1.0
 	github.com/fluxcd/pkg/untar v0.1.0
 	github.com/fluxcd/pkg/version v0.1.0
-	github.com/fluxcd/source-controller v0.19.2 // indirect
-	github.com/fluxcd/source-controller/api v0.19.2
 	github.com/garyburd/redigo v1.6.3 // indirect
 	github.com/go-git/go-billy/v5 v5.3.1
 	github.com/go-git/go-git/v5 v5.4.2

@@ -20,9 +20,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/fluxcd/source-controller/pkg/git"
-	"github.com/fluxcd/source-controller/pkg/git/gogit"
-	"github.com/fluxcd/source-controller/pkg/git/libgit2"
+	"github.com/au2001/fluxcd-source-controller/pkg/git"
+	"github.com/au2001/fluxcd-source-controller/pkg/git/gogit"
+	"github.com/au2001/fluxcd-source-controller/pkg/git/libgit2"
 )
 
 // CheckoutStrategyForImplementation returns the CheckoutStrategy for the given

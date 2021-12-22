@@ -16,7 +16,7 @@ limitations under the License.
 
 package gogit
 
-import "github.com/fluxcd/source-controller/pkg/git"
+import "github.com/au2001/fluxcd-source-controller/pkg/git"
 
 const (
 	Implementation git.Implementation = "go-git"
