@@ -31,7 +31,7 @@ import (
 	"strings"
 	"time"
 
-	git2go "github.com/libgit2/git2go/v31"
+	git2go "github.com/au2001/git2go/v31"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"
 
