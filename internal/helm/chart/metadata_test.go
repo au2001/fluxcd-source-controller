@@ -26,7 +26,7 @@ import (
 	helmchart "helm.sh/helm/v3/pkg/chart"
 	"helm.sh/helm/v3/pkg/chartutil"
 
-	"github.com/fluxcd/source-controller/internal/helm"
+	"github.com/au2001/fluxcd-source-controller/internal/helm"
 )
 
 var (

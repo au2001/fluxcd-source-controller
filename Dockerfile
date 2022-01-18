@@ -88,7 +88,7 @@ RUN FLAGS=$(pkg-config --static --libs --cflags libssh2 libgit2 libssl libcrypto
 FROM debian:bookworm-slim as controller
 
 # Link repo to the GitHub Container Registry image
-LABEL org.opencontainers.image.source="https://github.com/fluxcd/source-controller"
+LABEL org.opencontainers.image.source="https://github.com/au2001/fluxcd-source-controller"
 
 # Configure user
 RUN groupadd controller && \

@@ -32,7 +32,7 @@ import (
 	helmgetter "helm.sh/helm/v3/pkg/getter"
 	"helm.sh/helm/v3/pkg/repo"
 
-	"github.com/fluxcd/source-controller/internal/helm/repository"
+	"github.com/au2001/fluxcd-source-controller/internal/helm/repository"
 )
 
 // mockGetter is a simple mocking getter.Getter implementation, returning

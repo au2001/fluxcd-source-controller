@@ -53,10 +53,10 @@ import (
 	"github.com/fluxcd/pkg/runtime/predicates"
 	"github.com/fluxcd/pkg/untar"
 
-	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
-	"github.com/fluxcd/source-controller/internal/helm/chart"
-	"github.com/fluxcd/source-controller/internal/helm/getter"
-	"github.com/fluxcd/source-controller/internal/helm/repository"
+	sourcev1 "github.com/au2001/fluxcd-source-controller/api/v1beta1"
+	"github.com/au2001/fluxcd-source-controller/internal/helm/chart"
+	"github.com/au2001/fluxcd-source-controller/internal/helm/getter"
+	"github.com/au2001/fluxcd-source-controller/internal/helm/repository"
 )
 
 // +kubebuilder:rbac:groups=source.toolkit.fluxcd.io,resources=helmcharts,verbs=get;list;watch;create;update;patch;delete

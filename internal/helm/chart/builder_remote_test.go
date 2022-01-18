@@ -31,7 +31,7 @@ import (
 	"helm.sh/helm/v3/pkg/chartutil"
 	helmgetter "helm.sh/helm/v3/pkg/getter"
 
-	"github.com/fluxcd/source-controller/internal/helm/repository"
+	"github.com/au2001/fluxcd-source-controller/internal/helm/repository"
 )
 
 // mockIndexChartGetter returns specific response for index and chart queries.

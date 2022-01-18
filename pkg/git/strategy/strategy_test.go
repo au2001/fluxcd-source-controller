@@ -36,9 +36,9 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/object"
 	. "github.com/onsi/gomega"
 
-	"github.com/fluxcd/source-controller/pkg/git"
-	"github.com/fluxcd/source-controller/pkg/git/gogit"
-	"github.com/fluxcd/source-controller/pkg/git/libgit2"
+	"github.com/au2001/fluxcd-source-controller/pkg/git"
+	"github.com/au2001/fluxcd-source-controller/pkg/git/gogit"
+	"github.com/au2001/fluxcd-source-controller/pkg/git/libgit2"
 )
 
 func TestCheckoutStrategyForImplementation_Auth(t *testing.T) {

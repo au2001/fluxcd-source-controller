@@ -44,10 +44,10 @@ import (
 	"github.com/fluxcd/pkg/runtime/metrics"
 	"github.com/fluxcd/pkg/runtime/predicates"
 
-	sourcev1 "github.com/fluxcd/source-controller/api/v1beta1"
-	"github.com/fluxcd/source-controller/pkg/git"
-	"github.com/fluxcd/source-controller/pkg/git/strategy"
-	"github.com/fluxcd/source-controller/pkg/sourceignore"
+	sourcev1 "github.com/au2001/fluxcd-source-controller/api/v1beta1"
+	"github.com/au2001/fluxcd-source-controller/pkg/git"
+	"github.com/au2001/fluxcd-source-controller/pkg/git/strategy"
+	"github.com/au2001/fluxcd-source-controller/pkg/sourceignore"
 )
 
 // +kubebuilder:rbac:groups=source.toolkit.fluxcd.io,resources=gitrepositories,verbs=get;list;watch;create;update;patch;delete

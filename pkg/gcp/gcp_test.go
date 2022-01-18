@@ -32,7 +32,7 @@ import (
 	"time"
 
 	gcpstorage "cloud.google.com/go/storage"
-	"github.com/fluxcd/source-controller/pkg/gcp"
+	"github.com/au2001/fluxcd-source-controller/pkg/gcp"
 	"google.golang.org/api/googleapi"
 	raw "google.golang.org/api/storage/v1"
 	"gotest.tools/assert"

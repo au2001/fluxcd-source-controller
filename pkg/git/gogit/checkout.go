@@ -32,7 +32,7 @@ import (
 	"github.com/fluxcd/pkg/gitutil"
 	"github.com/fluxcd/pkg/version"
 
-	"github.com/fluxcd/source-controller/pkg/git"
+	"github.com/au2001/fluxcd-source-controller/pkg/git"
 )
 
 // CheckoutStrategyForOptions returns the git.CheckoutStrategy for the given

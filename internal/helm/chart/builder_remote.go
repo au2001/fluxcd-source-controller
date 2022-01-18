@@ -31,8 +31,8 @@ import (
 
 	"github.com/fluxcd/pkg/runtime/transform"
 
-	"github.com/fluxcd/source-controller/internal/fs"
-	"github.com/fluxcd/source-controller/internal/helm/repository"
+	"github.com/au2001/fluxcd-source-controller/internal/fs"
+	"github.com/au2001/fluxcd-source-controller/internal/helm/repository"
 )
 
 type remoteChartBuilder struct {

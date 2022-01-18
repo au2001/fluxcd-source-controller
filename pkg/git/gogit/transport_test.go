@@ -25,7 +25,7 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/transport/ssh"
 	. "github.com/onsi/gomega"
 
-	"github.com/fluxcd/source-controller/pkg/git"
+	"github.com/au2001/fluxcd-source-controller/pkg/git"
 )
 
 const (

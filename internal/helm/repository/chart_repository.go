@@ -37,7 +37,7 @@ import (
 
 	"github.com/fluxcd/pkg/version"
 
-	"github.com/fluxcd/source-controller/internal/helm"
+	"github.com/au2001/fluxcd-source-controller/internal/helm"
 )
 
 var ErrNoChartIndex = errors.New("no chart index")
